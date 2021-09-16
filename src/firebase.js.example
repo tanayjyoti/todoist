@@ -1,5 +1,7 @@
-import firebase from "firebase/app";
+import firebase from "firebase/app"; 
 import "firebase/firestore";
+
+/* for firebase version 9 or higher use "firebase/compat/app" and "firebase/compat/firestore" */
 
 const firebaseConfig = firebase.initializeApp({
   apiKey: "",
